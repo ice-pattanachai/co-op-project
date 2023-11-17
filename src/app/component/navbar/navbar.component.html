@@ -1,0 +1,43 @@
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="header" [ngClass]="{ 'hidden': !isNavbarVisible }" >
+    
+    <a class="logo">
+        <a class="logo">LittleShopFront</a>
+        <!-- <img src="assets/images/L.jpg" style=" width: 35px; height: 35px;"> -->
+    </a>
+    <nav class="navbar">
+        <a href="/home">Home</a>
+        <a href="/about">About</a>
+        <a href="0">#</a>
+        <a href="0">#</a>
+        <a href="#">Login</a>
+        <div class="menu-icon" (click)="toggleMenu()">
+            <mat-icon>menu</mat-icon>
+        </div>
+        <div class="responsive-menu" *ngIf="isMenuOpen" >
+            <a href="/home">Home</a>
+            <a href="/about">About</a>
+            <a href="0">#</a>
+            <a href="0">#</a>
+            <a href="/login">Login</a>
+        </div>
+    </nav>
+</body>
+<!-- <body>
+    <header class="header" [ngClass]="{ 'hidden': !isNavbarVisible }">
+        <a class="logo">Logo</a>
+        <nav class="navbar">
+            <a href="/home">Home</a>
+            <a href="/about">About</a>
+            <a href="/error404">####</a>
+            <a href="/error404">####</a>
+            <a href="/error404">####</a>
+            <a href="#">Login</a>
+        </nav>
+    </header>
+</body> -->
+
+<!-- <a> <mat-icon (click)="toggleDarkTheme()">settings_brightness</mat-icon></a> -->

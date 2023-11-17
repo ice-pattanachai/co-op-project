@@ -1,0 +1,12 @@
+{
+    "editor.formatOnType": false,
+    "editor.cursorBlinking": "blink",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorStyle": "line",
+    "editor.cursorSurroundingLinesStyle": "default",
+    "editor.find.autoFindInSelection": "never",
+    "editor.find.seedSearchStringFromSelection": "never",
+    "window.closeWhenEmpty": false,
+    "window.autoDetectColorScheme": false,
+    "window.density.editorTabHeight": "default"
+}

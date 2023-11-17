@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    --text-color: #222;
+    --bkg-color: #eeeeee;
+    --btn-txt-color: white;
+    --bkg-color: transparent;
+    --text-color: #222831;
+    --text-d-color: #FFFFFF;
+
+  }
+  body.dark-theme {
+    --text-color: #eee;
+    --bkg-color: #393E46;
+    --btn-txt-color: rgb(46, 43, 43);
+
+  }
+  body {
+    /* background: var(--bkg-color); */
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+
+
+  .background-container {
+    /* height: 2796px; */
+    width: 100vw; /* 100% ของความยาวของ viewport */
+    height: 100vh; /* 100% ของความสูงของ viewport */
+    background-image: url('assets/images/back.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: #ffffff; 
+    text-align: center; 
+  }
+  
